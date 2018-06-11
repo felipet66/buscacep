@@ -2,14 +2,17 @@
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
+# DEMO:
+* https://felipet66.github.io/buscacep/
+
 #### Conteudo:
--Manipulação do DOM
--XMLHttpRequest Javascript
--Modularização de código
--Regex
--Tailwindcss
--HTML
--CSS
+- Manipulação do DOM
+- XMLHttpRequest Javascript
+- Modularização de código
+- Regex
+- Tailwindcss
+- HTML
+- CSS
 
 -API Busca CEP: https://viacep.com.br/ws/[CEP]/json/
 -GitHub: https://github.com/felipet66/buscacep.git
