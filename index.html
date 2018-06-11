@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Github: felipet66</title>
+</head>
+<body style="background-image: url('img/bg.jpg')">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <div class="container text-center text-white font-semibold mx-auto border">
+    <h1>Busca CEP</h1>
+    <form data-js="form-cep" class="w-full max-w-sm mx-auto">
+      <div class="flex items-center border-b border-b-2 border-teal py-2">
+        <input data-js="input-cep" class="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight" type="text" placeholder="Digite o CEP" aria-label="Full name">
+        <button type="submit" data-js="btnSubmit" class="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded" type="button">
+          Consultar CEP
+        </button>
+      </div>
+    </form>
+    <h2 data-js="status"></h2>
+    <div data-js="cep-info">
+      <p>Logradouro: <span data-js="logradouro">-</span></p>
+      <p>Bairro: <span data-js="bairro">-</span></p>
+      <p>Estado: <span data-js="estado">-</span></p>
+      <p>Cidade: <span data-js="cidade">-</span></p>
+      <p>CEP: <span data-js="cep">-</span></p>
+    </div>
+    <br><br>
+    <p>Conteudo:</p>
+    <li>Manipulação do DOM</li>
+    <li>XMLHttpRequest Javascript</li>
+    <li>Modularização de código</li>
+    <li>Regex</li>
+    <li>Tailwindcss</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <br>
+    <p>API Busca CEP: https://viacep.com.br/ws/[CEP]/json/</p>
+    <p>GitHub: https://github.com/felipet66/buscacep.git</p>
+    <p>BackGround: http://wallpaperswide.com/</p>
+  </div>
+  <script src="js/dom.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
